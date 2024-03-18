@@ -1,0 +1,62 @@
+.card-container {
+    background: purple;
+    width: 100%;
+}
+
+.robo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.robo-header h2 {
+    font-family: Arial;
+    font-size: 34px;
+    color:black;
+}
+
+.search-robo {
+    background-color:black;
+    color: aliceblue;
+    padding: 10px;
+    outline: none;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 90px;
+    padding: 80px;
+}
+
+.robo-card {
+    width: 300px;
+    margin-top: 20px;
+   
+    background-color: aquamarine;
+}
+
+.robo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.robo-image p {
+    margin-top: auto;
+}
+
+.robo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.robo p {
+    margin-top: auto;
+}
